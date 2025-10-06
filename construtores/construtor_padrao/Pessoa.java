@@ -5,6 +5,7 @@ public class Pessoa {
     int idade;
 
     public Pessoa() {
+        //Opcional
         nome = "qualquer nome";
         idade = 0;
     }
