@@ -16,7 +16,23 @@ public class Veiculo {
     void desligar(){
         System.out.println("o veiculo esta desligado!");
     }
-
-    
 }
+
+    //SUBCLASSE
+
+class Motocicleta extends Veiculo{
+    int cilindradas;
+    boolean bau;
+    boolean abs;
+
+    void acelerar(){
+        System.out.println("acelerando a motocicleta");
+        }
+
+    void frear(){
+        System.out.println("freando a motocicleta");
+    }
+}
+    
+
 
