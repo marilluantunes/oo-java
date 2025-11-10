@@ -9,3 +9,13 @@ public class Personagem {
     
 }
 
+// SUBCLASSE 1
+
+class Guerreiro extends Personagem {
+    @Override
+    public void atacar(){
+        System.out.println("o guerreito ataca com a ESPADA");
+    }
+}
+
+
