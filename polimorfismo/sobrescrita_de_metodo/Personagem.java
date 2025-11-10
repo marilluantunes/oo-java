@@ -1,5 +1,7 @@
 package polimorfismo.sobrescrita_de_metodo;
 
+// EXEMPLO 2
+
 // CLASSE MAE
 public class Personagem {
 
@@ -34,7 +36,7 @@ class Arena {
     }
 }
 
-// CLASSE PRINCIAPAL
+// CLASSE PRINCIPAL
 
 class Main {
     public static void main(String[] args) {
