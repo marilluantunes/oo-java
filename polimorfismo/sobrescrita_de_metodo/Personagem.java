@@ -18,4 +18,13 @@ class Guerreiro extends Personagem {
     }
 }
 
+// SUBCLASSE 2
+
+class Mago extends Personagem {
+    @Override
+    public void atacar(){
+        System.out.println("o mago ataca com uma BOLA DE FOGO");
+    }
+}
+
 
