@@ -27,4 +27,12 @@ class Mago extends Personagem {
     }
 }
 
+// CLASSE ARENA
+class Arena {
+    public void iniciarAtaque(Personagem p){
+        p.atacar(); //o comportamento muda dependendo da subclasse
+    }
+}
+
+
 
