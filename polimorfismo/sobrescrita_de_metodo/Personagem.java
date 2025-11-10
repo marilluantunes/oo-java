@@ -34,5 +34,17 @@ class Arena {
     }
 }
 
+// CLASSE PRINCIAPAL
 
+class Main {
+    public static void main(String[] args) {
+        Arena arena = new Arena();
+        Personagem g = new Guerreiro();
+        Personagem m = new Mago();
+
+        arena.iniciarAtaque(g); // chama o atacar() do Guerreiro
+        arena.iniciarAtaque(m); // chama o atacar() do Mago 
+    }
+
+}
 

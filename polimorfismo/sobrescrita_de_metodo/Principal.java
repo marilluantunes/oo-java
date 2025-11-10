@@ -24,7 +24,7 @@ class Caminhao extends Veiculo {
     }
 }
 
-public class Main {
+public class Principal {
     public static void main(String[] args) {
         Veiculo v1 = new Veiculo();
         Veiculo v2 = new Motocicleta();
